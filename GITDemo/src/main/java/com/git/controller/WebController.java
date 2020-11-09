@@ -12,4 +12,9 @@ public class WebController {
 		return "Hi world";
 
 	}
+	@GetMapping("/hello")
+	public String sayHello()
+	{
+		return "Hello World";
+	}
 }

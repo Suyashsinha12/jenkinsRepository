@@ -17,8 +17,4 @@ public class WebController {
 	{
 		return "Hello World";
 	}
-	
-	public String test() {
-		return("test the program");
-	}
 }
